@@ -1,4 +1,6 @@
-print("Buenas Noches Usuario")
+
+
+
 contador = 0
 
 while(contador != 5):
@@ -16,6 +18,7 @@ while(contador != 5):
     anoNacimiento = None
     anoActual = 2022
     edad = None
+    edadFutura = 2030
     
     contador = int(input("Digita la opcion del menú"))
     
@@ -25,6 +28,17 @@ while(contador != 5):
     elif contador == 2:
         edad = anoActual - anoNacimiento
         print(f"La edad de {nombre} es de {edad} años.")
+    elif contador == 3:
+        print("Buenas Noches Usuario")
+    elif contador == 4:
+        edad = edadFutura - anoNacimiento
+        print(f"Usted tendrá en el 2030 {edad} años")
+    elif contador == 5:
+        print("Chao Usuario")
+else:
+    print("Digite una opcion valida")
+        
+        
         
         
         
