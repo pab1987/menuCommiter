@@ -1,4 +1,4 @@
-contador = 5
+contador = 0
 
 while(contador != 5):
     print("MENÚ")
@@ -9,3 +9,9 @@ while(contador != 5):
     print("4. contarle cuantos años tendra en el 2030")
     print("5. SALIR")
     print("*****************")
+    
+    anioActual = 2022
+    edad = anoNacimiento - anioActual
+    
+    
+    
