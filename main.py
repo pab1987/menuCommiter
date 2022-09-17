@@ -10,8 +10,20 @@ while(contador != 5):
     print("5. SALIR")
     print("*****************")
     
-    anioActual = 2022
-    edad = anoNacimiento - anioActual
     
+    nombre = None
+    anoNacimiento = None
+    anoActual = 2022
+    edad = None
     
+    contador = int(input("Digita la opcion del menú"))
     
+    if contador == 1:
+        nombre = input('Digita el nombre completo: ')
+        anoNacimiento = int(input('Ingrese su año de nacimiento: '))
+    elif contador == 2:
+        edad = anoActual - anoNacimiento
+        print(f"La edad de {nombre} es de {edad} años.")
+        
+        
+        
