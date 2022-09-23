@@ -12,15 +12,16 @@ while(contador != 5):
     print("4. contarle cuantos años tendra en el 2030")
     print("5. SALIR")
     print("*****************")
+    print("\n")
     
     
     nombre = None
     anoNacimiento = None
     anoActual = 2022
-    edad = None
+    edad = 0
     edadFutura = 2030
     
-    contador = int(input("Digita la opcion del menú"))
+    contador = int(input("Digita la opcion del menú: "))
     
     if contador == 1:
         nombre = input('Digita el nombre completo: ')
